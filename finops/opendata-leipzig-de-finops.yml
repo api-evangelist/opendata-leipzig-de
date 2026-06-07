@@ -1,0 +1,11 @@
+specification: FinOps Framework
+specificationVersion: '1.0'
+provider: Leipzig Open Data
+providerId: opendata-leipzig-de
+created: '2026-06-07'
+modified: '2026-06-07'
+reconciled: false
+notes: No usage-based billing; public open data.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

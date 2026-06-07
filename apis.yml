@@ -1,0 +1,59 @@
+aid: opendata-leipzig-de
+name: Leipzig Open Data
+description: >-
+  Leipzig Open Data is a municipal government open-data portal for Germany running CKAN.
+  It exposes the CKAN catalog API over approximately 395 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/opendata-leipzig-de/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Open Data Portal
+  - Municipal Government
+  - Germany
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: opendata-leipzig-de:catalog
+    name: Leipzig Open Data CKAN Action API
+    description: >-
+      CKAN Action API for Leipzig Open Data, ~395 datasets. Base URL https://opendata.leipzig.de/api/3/action/.
+    humanURL: https://opendata.leipzig.de
+    baseURL: https://opendata.leipzig.de/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://opendata.leipzig.de
+      - type: x-api-endpoint
+        url: https://opendata.leipzig.de/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.10.7'
+common:
+  - type: Website
+    url: https://opendata.leipzig.de
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/opendata-leipzig-de-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/opendata-leipzig-de-rate-limits.yml
+  - type: FinOps
+    url: finops/opendata-leipzig-de-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

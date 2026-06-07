@@ -1,0 +1,11 @@
+name: Leipzig Open Data
+url: https://raw.githubusercontent.com/api-evangelist/opendata-leipzig-de/refs/heads/main/review.yml
+created: '2026-06-07'
+modified: '2026-06-07'
+reviews:
+  - date: '2026-06-07'
+    rating: 4
+    summary: Live CKAN API verified (v2.10.7), ~395 datasets.
+    endpoints:
+      - url: https://opendata.leipzig.de/api/3/action/status_show
+        status: 200

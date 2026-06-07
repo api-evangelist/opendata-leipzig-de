@@ -1,0 +1,11 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+provider: Leipzig Open Data
+providerId: opendata-leipzig-de
+created: '2026-06-07'
+modified: '2026-06-07'
+reconciled: false
+notes: No published limit; harvest responsibly.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

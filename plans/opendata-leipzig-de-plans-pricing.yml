@@ -1,0 +1,15 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+provider: Leipzig Open Data
+providerId: opendata-leipzig-de
+created: '2026-06-07'
+modified: '2026-06-07'
+reconciled: false
+notes: Free / open public data API.
+plans:
+- id: opendata-leipzig-de-open
+  name: Free / Open Data
+  type: free
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
