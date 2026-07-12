@@ -42,6 +42,8 @@ apis:
       - type: x-ckan-version
         value: '2.10.7'
 common:
+  - type: DomainSecurity
+    url: security/opendata-leipzig-de-domain-security.yml
   - type: Website
     url: https://opendata.leipzig.de
   - type: Documentation
